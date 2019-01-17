@@ -341,3 +341,42 @@ header .top-bar .nav-bar a {
     width: 100%;
   }
 }
+.home .more-info {
+  text-align: center;
+}
+.home .more-info h3 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+.home .more-info h4 {
+  font-size: 1.5rem;
+  padding-bottom: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+.home .more-info h5 {
+  font-size: 1.25rem;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.home .more-info .radio {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.home .more-info .btn {
+  background-color: #008080;
+  color: white;
+  border-radius: 10px;
+  width: 85%;
+  height: 40px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 8px 0 0 8px;
+  border: 1px solid #E2E2E2;
+  width: 15%;
+  padding: 0px;
+}
+.home .more-info .btn:hover {
+  cursor: pointer;
+}
