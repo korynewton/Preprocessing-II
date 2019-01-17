@@ -257,3 +257,14 @@ header .nav-bar a {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  background-color: #008080;
+  color: white;
+  border-radius: 10px;
+  width: 85%;
+  height: 40px;
+  font-size: 2rem;
+  text-align: center;
+  padding: 8px 0 0 8px;
+  border: 1px solid #E2E2E2;
+}
