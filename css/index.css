@@ -374,9 +374,12 @@ header .top-bar .nav-bar a {
   text-align: center;
   padding: 8px 0 0 8px;
   border: 1px solid #E2E2E2;
-  width: 15%;
+  width: 20%;
   padding: 0px;
+  background-color: #17A2B8;
 }
 .home .more-info .btn:hover {
   cursor: pointer;
+  background: white;
+  color: #17A2B8;
 }

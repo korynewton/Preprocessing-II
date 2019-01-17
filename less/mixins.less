@@ -10,3 +10,19 @@
     padding: 8px 0 0 8px;
     border: 1px solid #E2E2E2;
 }
+
+//Animation Mixin
+
+.slide-animation(@fromwidth, @margin, @towidth, @marginend) {
+    @keyframes slidein {
+        from {
+            margin-left: @margin;
+            width: @fromwidth; 
+          }
+        
+          to {
+            margin-left: @marginend;
+            width: @towidth;
+          }
+    }
+}
