@@ -14,12 +14,31 @@
   <![endif]-->
 </head>
 
-<body>
+<header>
+  <div class="top-bar">
+    <div class="brand">
+      <h1>Fun Bus</h1>
+    </div>
+    <div class="nav-bar">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Blog</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+</header>  
 
-  
-     
-  <div class="container home">
-   
+<body>    
+  <div class="container home"> 
+
+    <div class="top-page">
+      <img src="img/fun-bus.jpg" alt="Fun Bus">  
+      <div class="welcome">
+        <h1>Welcome To Fun Bus!</h1>
+        <p>Traveling expidition modern, clean webdisign blogger clean website theme website modern. Design pretty design, travelblogger adventure WordPress wanderlust theme blogger website expedition theme travelblogger. Adventure fun traveler pretty design expedition.</p>
+      </div>
+    </div>
+
     <section class="content-section">
       <div class="text-content">
         <h2>Let's Go!</h2>
@@ -64,6 +83,26 @@
         <div class="btn">Sign Me Up!</div>
       </div>
     </section>
+
+    <form class="more-info">
+        <h3>Send Me More Info:</h3>
+        <h4>First name:</h4><br>
+        <input type="text" name="firstname"><br>
+        <h4>Last name:</h4><br>
+        <input type="text" name="lastname"><br>
+        <h4>Email:</h4><br>
+        <input type="text" name="email"><br>
+        <h4>Phone Number:</h4><br>
+        <input type="text" name="phonenumber"><br>
+        <h5>Preferred Method of Contact:</h5><br>
+        <div class="radio">
+            <input type="radio" name="preferred" value="phone"> phone<br>
+            <input type="radio" name="preferred" value="email"> email<br>
+            <input type="radio" name="preferred" value="carrier-pigeon" checked> carrier pigeon<br>
+        </div>
+        <button class="btn" type="submit" value="Submit">Submit</button>
+      </form>
+
   </div><!-- container -->
 
   <footer class="footer">
